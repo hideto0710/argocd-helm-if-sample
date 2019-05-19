@@ -1,4 +1,4 @@
-{{- if or .Values.noneValueA .Values.noneValueB -}}
+{{- if or .Values.runnerRegistrationToken .Values.noneValue -}}
 apiVersion: v1
 kind: Service
 metadata:
