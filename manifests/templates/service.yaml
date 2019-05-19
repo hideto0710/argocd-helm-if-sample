@@ -1,4 +1,4 @@
-{{- if or .Values.replicaCount .Values.noneValue -}}
+{{- if or .Values.noneValueA .Values.noneValueB -}}
 apiVersion: v1
 kind: Service
 metadata:
